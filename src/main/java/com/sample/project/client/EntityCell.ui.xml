@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:s="urn:import:com.genohm.client.panel">
+    <ui:with field='entity' type="java.lang.String"/>
+
+    <div ui:field="thingToClick">
+        <table>
+            <tr>
+                <td>
+                    <ui:text from='{entity}'/>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</ui:UiBinder>
